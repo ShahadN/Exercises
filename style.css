@@ -1,0 +1,144 @@
+
+html{
+    scroll-behavior:smooth  ;
+}
+
+body {
+    font-size: 18px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+img{
+    width: 50%;
+
+}
+h2{
+    text-align: center;
+}
+#scrollTop{
+    display: none;
+    position: fixed;
+    bottom: 5%;
+    right: 2%;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+header {
+    min-height: 450px;
+    position: absolute;
+    background-image: url(code.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 80%;
+    
+}
+.Welcom {
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    opacity: 0.9;
+    padding-top: 15%;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    display: block;
+}
+button {
+    background-color: black;
+    width: 10%;
+    height: 10%;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: darkgray solid .5px;
+}
+
+button:hover,a:hover {
+    color: rgb(61, 61, 61);
+    background-color: ivory;
+}
+
+
+.section-a {
+    /* font-size: 20px; */
+    /* column-count: 2; */
+    /* text-align: center; */
+    /* padding: 10px; */
+    padding-top: 2%;
+    padding-bottom: 0%;
+    /* margin-right: 10%; */
+}
+.section-b{
+    column-count: 1;
+    margin-top: 48.5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: rgb(71, 68, 68);
+}
+.section-c{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.section-d{
+    background-color: rgb(71, 68, 68);
+    padding: 5%;
+    color: white;
+}
+.section-a p {
+    font-size: 20px;
+    column-count: 2;
+    text-align: center;
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 10%;
+}
+
+.info {
+    position: absolute;
+    background-color: #eaeaea;
+    margin-top: 35%;
+    padding-left: 5%;
+    text-align: center;
+
+}
+
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+.row {
+    margin: 0 -5px;
+    margin-left: 15%;
+    margin-bottom: 5%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #ffffff;
+}
+footer{
+    padding: 2%;
+    background-color: rgb(26, 24, 24) ;
+    color: white;
+    text-align: left;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
